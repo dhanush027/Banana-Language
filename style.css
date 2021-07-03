@@ -1,0 +1,50 @@
+:root{
+    --primary-color:#FCD34D;
+    --light-yellow:#FCD34D;
+}
+
+#input-text{
+    background-color:var(--light-yellow);
+    width: 400px;
+    height: 170px;
+    display: block;
+    margin:auto;
+
+
+}
+#output-text{
+    background-color:var(--light-yellow);
+    width: 400px;
+    height: 170px;
+    display: block;
+    margin:auto;
+
+}
+body{
+    margin: 0px;;
+}
+#btn-translate{
+    border-radius: 1.5rem;
+    padding:0.7rem;
+    display: block;
+    margin: auto;
+    width:100px;
+    background-color: aquamarine;
+    
+}
+#btn-translate:hover{
+    background-color: aqua;
+    
+}
+header{
+    background-color: var(--primary-color);
+    margin: 0px;
+    padding:0.2rem;
+    border-bottom-left-radius: 1rem;
+}
+h1{
+    text-align: center;
+}
+.wrapper{
+    padding: 2rem;
+}
