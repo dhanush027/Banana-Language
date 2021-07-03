@@ -1,39 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tourney:ital@1&display=swap');
 :root{
     --primary-color:#FCD34D;
-    --light-yellow:#FCD34D;
+    --light-yellow:#FEF3C7;
+
 }
 
 #input-text{
     background-color:var(--light-yellow);
-    width: 400px;
+    width: 600px;
     height: 170px;
-    display: block;
-    margin:auto;
-
-
+    font-family:inherit;
+    font-size: 20px;
 }
 #output-text{
     background-color:var(--light-yellow);
-    width: 400px;
+    width: 600px;
     height: 170px;
-    display: block;
-    margin:auto;
-
+    font-family:inherit;
+    font-size: 20px;
 }
 body{
-    margin: 0px;;
+    margin: 0px;
+    font-family:"Pacifico",sans-serif ;
+    color:white;
+    background-color:var(--light-yellow);
 }
 #btn-translate{
-    border-radius: 1.5rem;
+    border-radius: 1.8rem;
     padding:0.7rem;
-    display: block;
-    margin: auto;
     width:100px;
     background-color: aquamarine;
-    
+    margin:1rem 0rem 0rem 0rem;
+    border-collapse: collapse;
+    transition: transform .2s;
+    font-family:inherit;
+    font-size: inherit;
 }
 #btn-translate:hover{
     background-color: aqua;
+    transform: scale(1.1); 
     
 }
 header{
@@ -41,10 +46,39 @@ header{
     margin: 0px;
     padding:0.2rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 h1{
     text-align: center;
+    color:black;
 }
 .wrapper{
     padding: 2rem;
+    margin:auto;
+    max-width: 600px;
+}
+.spacing{
+    padding:1rem 0rem;
+    color:black;
+}
+footer{
+    background-color: var(--primary-color);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-align:justify;
+    color: black;
+    border-top-right-radius:1.5rem;
+    border-top-left-radius: 1.5rem;
+    margin:8rem 0rem 0rem 0rem;
+    max-height: 500px;
+}
+.whitespace-footer{
+    background-color: yellow;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.txtDisplay{
+    max-width: 650px;
+    max-height: 200px;
+    margin: auto;
 }
