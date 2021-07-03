@@ -45,8 +45,8 @@ header{
     background-color: var(--primary-color);
     margin: 0px;
     padding:0.2rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1.5srem;
+    border-bottom-right-radius: 1.5rem;
 }
 h1{
     text-align: center;
