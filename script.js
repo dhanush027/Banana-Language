@@ -13,9 +13,9 @@ var serverURL="https://api.funtranslations.com/translate/minion.json"
  function urlGenerator(text){
      return serverURL+"?"+"text="+text
 }
-function errorHandler(){
+function errorHandler(error){
     console.log("Error occured:",error)
-    alert("Server translates only 5 times per hour,Try again after an hour! ")
+    alert("Only 5 requests per hour,Please try again after an hour! ")
 }
 
 function clickHandler(){
